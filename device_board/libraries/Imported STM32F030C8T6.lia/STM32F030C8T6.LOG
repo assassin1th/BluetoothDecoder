@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : STM32F030C8T6.LibPkg
+
+Section : C:\Users\art_home\university\schem\sem6\BluetoothDecoder\device_board\libraries\STM32F030C8T6.lia
+    Section : PCB Library - STM32F030C8T6.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token STM32F030C8T6 On Line 171
+            Warning - 1 : Skipping Token attachedSymbol On Line 678
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - STM32F030C8T6.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 134
+            Warning - 1 : Skipping Token layerContents On Line 140
+            Warning - 1 : Skipping Token layerContents On Line 149
+            Warning - 1 : Skipping Token layerContents On Line 158
+        EndSection
+
+        Section : Generating SCH Library - STM32F030C8T6.SchLib
+        EndSection
+    EndSection
+EndSection
