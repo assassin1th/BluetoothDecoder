@@ -57,5 +57,11 @@ void bind_interupts (void)
 
 uint8_t decode_byte (uint8_t byte, uint8_t step)
 {
-	return (byte != '\0') ? (byte + step) : byte;
+	if (byte == '\0') {
+		write_byte (&writer, '!');
+		write_byte (&writer, '!');
+		return byte;
+	} else {
+		return byte + step;
+	}
 }
