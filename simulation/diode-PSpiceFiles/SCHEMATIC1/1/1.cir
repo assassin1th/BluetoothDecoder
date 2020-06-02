@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC1-1"  [ C:\Users\art_home\university\schem\sem6\BluetoothDecoder\simulation\diode-pspicefiles\schematic1\1.sim ] 
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\art_home\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "C:\Cadence\SPB_17.2\tools\pspice\library\bjn.lib" 
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 300m 0 300u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

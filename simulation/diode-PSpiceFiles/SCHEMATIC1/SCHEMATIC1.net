@@ -1,0 +1,7 @@
+* source DIODE
+Q_Q1         N000402 N00306 +3.3 BC857_1 
+V_V2         +3.3 0 3.3
+R_R1         N00306 N00310  100k TC=0,0 
+V_V3         N00310 0  
++PULSE 3.3 0 0 1n 1n 35m 40m
+X_D1         N000402 0 LED PARAMS: IS=8.4534e-021 RS=2  BV=5 IBV=10e-6         

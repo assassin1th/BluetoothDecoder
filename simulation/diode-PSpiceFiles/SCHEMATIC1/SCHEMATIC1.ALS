@@ -1,0 +1,8 @@
+.ALIASES
+Q_Q1            Q1(C=N000402 B=N00306 E=+3.3 ) CN @DIODE.SCHEMATIC1(sch_1):INS28@INFINEON_S_AFBJT.BC857.Normal(chips)
+V_V2            V2(+=+3.3 -=0 ) CN @DIODE.SCHEMATIC1(sch_1):INS147@SOURCE.VDC.Normal(chips)
+R_R1            R1(1=N00306 2=N00310 ) CN @DIODE.SCHEMATIC1(sch_1):INS290@ANALOG.R.Normal(chips)
+V_V3            V3(+=N00310 -=0 ) CN @DIODE.SCHEMATIC1(sch_1):INS491@SOURCE.VPULSE.Normal(chips)
+X_D1            D1(1=N000402 2=0 ) CN @DIODE.SCHEMATIC1(sch_1):INS758@LED.LED.Normal(chips)
+_    _(+3.3=+3.3)
+.ENDALIASES

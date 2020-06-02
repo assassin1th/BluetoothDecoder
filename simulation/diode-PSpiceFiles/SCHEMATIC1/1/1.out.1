@@ -1,0 +1,43 @@
+
+**** 06/02/20 00:58:38 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ C:\Users\art_home\university\schem\sem6\BluetoothDecoder\simulation\diode-PSpiceFiles\SCHEMATIC1\1.sim
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\art_home\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 300m 0 300u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source DIODE
+Q_Q1         N00376 N00306 +3.3 BC857_1 
+V_V2         +3.3 0 3.3
+R_R1         N00306 GND  100k TC=0,0 
+R_R2         0 N00376  1k TC=0,0 
+
+**** RESUMING 1.cir ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node GND.
+
